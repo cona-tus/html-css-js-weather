@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather On U</title>
+</head>
+<body>
+    <header>
+        <h1 class='app-name'>Weather On U</h1>
+        <div class='background-blue'></div>
+    </header>
+    <main>
+        <section class='weather'>
+            <div class='location'>
+                <h3 class='location-city'>서울특별시</h3>
+                <h2 class='location-detail'>은평구 역촌동</h2>
+            </div>
+            <div class='forecast'>
+                <div class='forecast-info'>
+                    <div class='forecast-status'>
+                        <img class='forecast-status__img' src='./img/sunny.svg' alt='sunny day' />
+                        <span class='forecast-status__time'>오후 4시 맑음</span>
+                    </div>
+                    <div class='forecast-temperature'>
+                        <span class='forecast-temperature__date'>4월 7일</span>
+                        <span class='forecast-temperature__celcius'>20°C</span>
+                        <span class='forecast-temperature__wind-chil'>체감 온도 22°C</span>
+                    </div>
+                </div>
+                <div class='forecast-detail'>
+                    <div class='humidity'>
+                        <!-- <img class='humidity__img' src 습도 물방울 이미지 넣어야함 /> -->
+                        <span class='humidity__title'>습도</span>
+                        <span class='humidity__percentage'>10%</span>
+                    </div>
+                    <div class='precipitation'>
+                        <!-- <img class='precipitation__img' src 강수 우산 이미지 넣어야함 /> -->
+                        <span class='precipitation__title'>강수</span>
+                        <span class='precipitation__percentage'>0%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class='hourly-weather'>
+            <h2 class='hourly-weather__title'>시간별 날씨</h2>
+            <ul class='hourly-list'>
+                <!-- flex로 인라인으로 나란히 정렬하기 -->
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+                <li class='hourly-item'>
+                    <!-- <img class='hourly-item__img' src="" alt="" 시간별 날씨 아이콘 넣기/> -->
+                    <span class='hourly-item__time'>오후 5시</span>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class='outfits'>
+            <h2 class='outfits-title'>오늘은 이렇게 입어보세요</h2>
+            <!-- ul grid(display로 여섯개 정렬하기) -->
+            <ul class='outfits-list'>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+                <li class='outfits-item'>
+                    <!-- <img src=""옷 아이콘 넣기 alt=""> -->
+                    <span>가벼운 재킷</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
